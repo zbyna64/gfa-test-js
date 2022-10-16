@@ -28,22 +28,17 @@ let posts = [{
 let myFunction = x => {
     console.log(x);
 }
-
+let names = ["Zbyna", "Ondra", "Tom"];
 let greeter = name => {
     console.log("hello, " + name);
 }
-greeter("Zbyna");
 
+names.forEach(name => {
+    console.log("Hello, " + name);
+})
 
 colors.forEach(color => {
     console.log("This is my favorite color:" + color);
-});
-
-for (let index = 0; index < colors.length; index++) {
-    const color = colors[index];
-}
-
-
-    
+});   
 
 console.log("This is the end of the code!");
