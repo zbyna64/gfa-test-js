@@ -39,6 +39,6 @@ names.forEach(name => {
 
 colors.forEach(color => {
     console.log("This is my favorite color:" + color);
-});   
+});
 
 console.log("This is the end of the code!");

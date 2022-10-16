@@ -1,3 +1,35 @@
-h1{
+h1 {
     color: red;
+}
+
+div {
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 10px solid black;
+    background: lime;
+    font-size: 80px;
+}
+
+.first {
+    border: 10px solid red;
+}
+
+.second {
+    border: 10px solid #000000;
+    background: white;
+}
+
+body {
+    padding: 10px;
+}
+
+.fourth {
+    border: 10px solid blue;
+}
+
+.fifth {
+    border: 10px solid purple;
+    background: yellow;
 }
