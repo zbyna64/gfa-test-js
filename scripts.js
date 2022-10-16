@@ -1,3 +1,18 @@
+// 4th part
+
+// $('div').text("hello world");
+$('div').css('background', 'pink');
+$('div').css('font-size', '20px');
+
+$('button').click(() => {
+    $('.second').toggleClass('hidden');
+});
+
+
+
+
+
+// from 1st part to the 3rd part 
 console.log("This is javascript and it is working!");
 
 let colors = ["orange", "blue", "green", "yellow"];

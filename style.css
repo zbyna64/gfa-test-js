@@ -33,3 +33,7 @@ body {
     border: 10px solid purple;
     background: yellow;
 }
+
+.hidden {
+    display: none;
+}
